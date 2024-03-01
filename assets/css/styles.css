@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&family=Zeyada&display=swap');
+
+header::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black ;
+    background-image: url('../images/image\ 1.png');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    z-index: -10;
+}
+
+h1 {
+    color: #BEAE19;
+    font-family: 'Jim Nightshade', sans-serif;
+    font-weight: 800;
+    font-size: 48;
+}
+
+h2{
+    font-family: 'Zeyada', sans-serif;
+    color: gray;
+    font-weight: 200;
+    font-size: 20;
+}
+
+p{
+    font-family: 'Zeyada', sans-serif;
+    color: brown;
+    font-weight: 300;
+    font-size: 25;
+}
+
+ol{
+    font-family: 'Jim Nightshade', sans-serif;
+    color: brown;
+    font-weight: 200;
+    font-size: 25;
+}
