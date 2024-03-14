@@ -26,21 +26,25 @@ h1 {
     font-size: 48;
 }
 
-header h2{
+section h2{
     font-family: 'Jim Nightshade', sans-serif;
-    color: gray;
+    color: black;
     font-weight: 200;
     font-size: 20;
 }
 
-header p{
-    font-family: 'Zeyada', sans-serif;
-    color: brown;
+section p{
+    font-family: 'Jim Nightshade', sans-serif;
+    color: black;
     font-weight: 300;
     font-size: 25;
 }
 
+
+
 ol{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     font-family: 'Jim Nightshade', sans-serif;
     color: brown;
     font-weight: 200;
@@ -72,3 +76,42 @@ ol{
     font-size: 1.75rem;
     /*16px = 1rem*/
 }
+
+#secao_fichas{
+    height: 100vh;
+    background-color: #cf5c0f
+}
+
+#secao_fichas ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card{
+    max-height: 420px;
+    max-width: 300px;
+    position: relative;
+    cursor: pointer;
+}
+
+.class .dnd{
+    height: 100%;
+    width: 100%;
+}
+
+.dnd img{
+    height: 100%;
+    width: 100%;
+}
+
+.card .texto{
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: opacity .5s ;
+}
+
+.card:hover .texto{
+    opacity: 1;
+}
+
