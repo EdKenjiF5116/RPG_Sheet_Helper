@@ -49,6 +49,8 @@ ol{
     color: brown;
     font-weight: 200;
     font-size: 25;
+    list-style-type: none;
+
 }
 
 #secao_apresentacao{
@@ -115,3 +117,41 @@ ol{
     opacity: 1;
 }
 
+
+#secao_criacao{
+    height: 100vh;
+    padding: 3rem;
+}
+
+#secao_criacao form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 500px;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.ficha_sistema{
+    display: flex;
+    flex-direction: column;
+}
+
+.linha{
+    grid-column: 1 / 3;
+}
+
+input[type=text], 
+input[type=number],
+select{
+    background-color: rgb(163, 163, 163);
+    color: rgb(0, 0, 0);
+    border-radius: .25rem;
+    border: 0;
+    padding: .5rem;
+}
+
+input[type=radio],
+input[type=checkbox],
+input[type=range]{
+    accent-color: #cf5c0f;
+}

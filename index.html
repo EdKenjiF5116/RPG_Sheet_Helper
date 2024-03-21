@@ -64,6 +64,78 @@
         </li>
     </ul>
 </section>
+<section id="secao_criacao">
+    <h4>Crie sua ficha </h4>
+    <form action="">
+        <Div class="ficha_sistema linha">
+            <label for="Sistema">Sistema</label>
+            <select name="Sistema" id="Sistema">
+                <option value="0">Selecione uma opção</option>
+                <option value="1">Dungeons And Dragons</option>
+                <option value="2">Pathfinder 2e</option>
+                <option value="3">Call Of Cthulhu</option>
+                <option value="4">Cyberpunk 2020</option>
+                <option value="5">PokeRPG</option>
+            </select>
+        </Div>
+        
+        <div class="nome_ficha linha2">
+            <label for="Nome">Nome</label>
+            <input type="text" id="Nome">
+        </div>
+
+        <div class="ficha_classe linha3">
+            <label for="Classe">Classe</label>
+            <input type="text" id="Classe">
+        </div>
+
+        <div class="ficha_raca linha4">
+            <label for="Raça">Raça</label>
+            <input type="text" id="Raça">
+        </div>
+
+        <div>
+            <label for="Nível">Nível</label>
+            <input type="range" min="1" max="100">
+        </div>
+        
+        <div>
+            <label for="Nível">Nível</label>
+            <input type="number" id="Nível" min="1" max="100">
+        </div>
+        
+        <div>
+            <label for="">Imagem do personagem?</label>
+            <input name="imag_personagem" type="radio" id="sim_imag">
+            <label for="sim_imag">Sim quero adicionar</label>
+            <input name="imag_personagem" type="radio" id="nao_imag">
+            <label for="nao_imag">Não quero adicionar</label>
+        </div>
+        
+
+        <div>
+            <input type="checkbox" id="js">
+            <label for="js">Adicionar Items?</label>
+        </div>
+
+        <div>
+            <select name="Items" id="Items" multiple>
+                <option value="0">Selecione uma opção</option>
+                <option value="1">Dungeons And Dragons</option>
+                <option value="2">Pathfinder 2e</option>
+                <option value="3">Call Of Cthulhu</option>
+                <option value="4">Cyberpunk 2020</option>
+                <option value="5">PokeRPG</option>
+            </select>
+        </div>
+
+        
+
+        <input type="submit" value="criar ficha">
+
+
+    </form>
+</section>
 
 </body>
 </html>
