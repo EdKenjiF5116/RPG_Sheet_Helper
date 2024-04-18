@@ -39,7 +39,7 @@
     
             <div class="texto">
                 <h3>Exemplo Ficha Dungeons & Dragons</h3>
-                <p class="dungeons">Um pequeno exemplo de ficha usando uma já produzida por mim durante uma campanha.</p>
+                <p2 class="dungeons">Um pequeno exemplo de ficha usando uma já produzida por mim durante uma campanha.</p>
             </div>
         </li>
         <li class="card">
@@ -48,8 +48,8 @@
             </div>
     
             <div class="texto">
-                <h3>Exemplo Ficha Dungeons & Dragons</h3>
-                <p class="dungeons">Um pequeno exemplo de ficha usando uma já produzida por mim durante uma campanha.</p>
+                <h3>Exemplo Ficha Pathfinder 2e</h3>
+                <p2 class="dungeons">Um pequeno exemplo de ficha usando uma já produzida por mim durante uma campanha.</p>
             </div>
         </li>
         <li class="card">
@@ -58,8 +58,8 @@
             </div>
     
             <div class="texto">
-                <h3>Exemplo Ficha Dungeons & Dragons</h3>
-                <p class="dungeons">Um pequeno exemplo de ficha usando uma já produzida por mim durante uma campanha.</p>
+                <h3>Exemplo Ficha Call of Cthulhu</h3>
+                <p2 class="dungeons">Um pequeno exemplo de ficha usando uma já produzida por mim durante uma campanha.</p>
             </div>
         </li>
     </ul>
@@ -79,32 +79,22 @@
             </select>
         </Div>
         
-        <div class="nome_ficha linha2">
+        <div class="nome_ficha_linha2">
             <label for="Nome">Nome</label>
             <input type="text" id="Nome">
         </div>
 
-        <div class="ficha_classe linha3">
+        <div class="ficha_classe_linha3">
             <label for="Classe">Classe</label>
             <input type="text" id="Classe">
         </div>
 
-        <div class="ficha_raca linha4">
+        <div class="ficha_raca_linha4">
             <label for="Raça">Raça</label>
             <input type="text" id="Raça">
         </div>
-
-        <div>
-            <label for="Nível">Nível</label>
-            <input type="range" min="1" max="100">
-        </div>
         
-        <div>
-            <label for="Nível">Nível</label>
-            <input type="number" id="Nível" min="1" max="100">
-        </div>
-        
-        <div>
+        <div class="img_personagem">
             <label for="">Imagem do personagem?</label>
             <input name="imag_personagem" type="radio" id="sim_imag">
             <label for="sim_imag">Sim quero adicionar</label>
@@ -129,12 +119,16 @@
             </select>
         </div>
 
-        
+        <div>
+            <label for="Nível">Nível</label>
+            <input type="range" min="1" max="100">
+        </div>
 
         <input type="submit" value="criar ficha">
 
 
     </form>
+    <span id="Lvl">1</span>
 </section>
 
 </body>
